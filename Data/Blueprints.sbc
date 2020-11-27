@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Blueprints>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>StaliniumOreToIngot</SubtypeId>
+			</Id>
+			<DisplayName>Stalinium ingot</DisplayName>
+			<Icon>Textures\GUI\Icons\Kristium.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ore" SubtypeId="Stalinium"/>
+			</Prerequisites>
+			<Result Amount="0.004" TypeId="Ingot" SubtypeId="ACCOIN"/>
+			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Lense</SubtypeId>
+			</Id>
+			<DisplayName>Lense</DisplayName>
+			<Icon>Textures\GUI\Icons\component\Lense.dds</Icon>
+			<Prerequisites>
+				<Item Amount="100" TypeId="Ingot" SubtypeId="ACCOIN"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Lense"/>
+			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<!--<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>UraniumOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_UraniumIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\uranium_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="0.003" TypeId="Ingot" SubtypeId="Uranium" />
+      <BaseProductionTimeInSeconds>7</BaseProductionTimeInSeconds>
+    </Blueprint>-->
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Missile200mm</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_Missile200mm</DisplayName>
+			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+			<Prerequisites>
+				<Item Amount="55" TypeId="Ingot" SubtypeId="Iron"/>
+				<Item Amount="7" TypeId="Ingot" SubtypeId="Nickel"/>
+				<Item Amount="1.2" TypeId="Ingot" SubtypeId="Silicon"/>
+				<Item Amount="5.2" TypeId="Ingot" SubtypeId="Magnesium"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Missile200mm"/>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Welder</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_Welder</DisplayName>
+			<Icon>Textures\GUI\Icons\WeaponWelder.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="Iron"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="WelderItem"/>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>AngleGrinder</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_AngleGrinder</DisplayName>
+			<Icon>Textures\GUI\Icons\WeaponGrinder.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="Iron"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinderItem"/>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>HandDrill</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_HandDrill</DisplayName>
+			<Icon>Textures\GUI\Icons\WeaponDrill.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="Iron"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrillItem"/>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+	</Blueprints>
+</Definitions>
