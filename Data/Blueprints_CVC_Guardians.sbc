@@ -44,7 +44,7 @@
             <SubtypeId>ZoneChip</SubtypeId>
         </Id>
         <DisplayName>DisplayName_Item_ZoneChip</DisplayName>
-		<Description>The ZoneChip is a complex piece of equipment that has to be created slowly for it \nto be crafted to the highest quality. It is a sensetive subspace field calibration \ndevice with a built in computer, unfortunately due to their fragile nature, \nthey will always burn out after prolonged use.</Description>
+		<Description>The ZoneChip is a complex piece of equipment that has to be created slowly for it \nto be crafted to the highest quality. It is a sensetive subspace field calibration device with a built in computer, unfortunately due to their fragile nature, they will always burn out after prolonged use.</Description>
         <Icon>Textures\GUI\Icons\Items\ZoneChip_Item.dds</Icon>
         <Prerequisites>
 		  <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
