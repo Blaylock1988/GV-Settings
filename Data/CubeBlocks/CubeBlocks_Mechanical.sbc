@@ -16,15 +16,14 @@
 			<Model>Models\Cubes\Large\PistonBase.mwm</Model>
 			<PlaceDecals>false</PlaceDecals>
 			<Components>
-				<Component Subtype="SteelPlate" Count="100"/>
-				<Component Subtype="Lense" Count="1000"/>
-				<Component Subtype="Construction" Count="100"/>
-				<Component Subtype="LargeTube" Count="400"/>
-				<Component Subtype="Motor" Count="400"/>
-				<Component Subtype="Computer" Count="200"/>
-				<Component Subtype="SteelPlate" Count="500"/>
+				<Component Subtype="Lense" Count="1">
+					<DeconstructId>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Scrap</SubtypeId>
+					</DeconstructId>
+				</Component>
 			</Components>
-			<CriticalComponent Subtype="Computer" Index="0"/>
+			<CriticalComponent Subtype="Lense" Index="0"/>
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true"/>
 				<MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="1.7"/>
@@ -76,15 +75,14 @@
 			<Model>Models\Cubes\Large\PistonBase.mwm</Model>
 			<PlaceDecals>false</PlaceDecals>
 			<Components>
-				<Component Subtype="SteelPlate" Count="100"/>
-				<Component Subtype="Lense" Count="1000"/>
-				<Component Subtype="Construction" Count="100"/>
-				<Component Subtype="LargeTube" Count="400"/>
-				<Component Subtype="Motor" Count="400"/>
-				<Component Subtype="Computer" Count="200"/>
-				<Component Subtype="SteelPlate" Count="500"/>
+				<Component Subtype="Lense" Count="1">
+					<DeconstructId>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Scrap</SubtypeId>
+					</DeconstructId>
+				</Component>
 			</Components>
-			<CriticalComponent Subtype="Computer" Index="0"/>
+			<CriticalComponent Subtype="Lense" Index="0"/>
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true"/>
 				<MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="1.7"/>
@@ -136,15 +134,14 @@
 			<Model>Models\Cubes\Small\PistonBase.mwm</Model>
 			<PlaceDecals>false</PlaceDecals>
 			<Components>
-				<Component Subtype="SteelPlate" Count="200"/>
-				<Component Subtype="Lense" Count="1000"/>
-				<Component Subtype="Construction" Count="400"/>
-				<Component Subtype="SmallTube" Count="400"/>
-				<Component Subtype="Motor" Count="200"/>
-				<Component Subtype="Computer" Count="100"/>
-				<Component Subtype="SteelPlate" Count="200"/>
+				<Component Subtype="Lense" Count="1">
+					<DeconstructId>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Scrap</SubtypeId>
+					</DeconstructId>
+				</Component>
 			</Components>
-			<CriticalComponent Subtype="Computer" Index="0"/>
+			<CriticalComponent Subtype="Lense" Index="0"/>
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
 				<MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="1.7"/>
@@ -196,15 +193,14 @@
 			<Model>Models\Cubes\Small\PistonBase.mwm</Model>
 			<PlaceDecals>false</PlaceDecals>
 			<Components>
-				<Component Subtype="SteelPlate" Count="200"/>
-				<Component Subtype="Lense" Count="1000"/>
-				<Component Subtype="Construction" Count="400"/>
-				<Component Subtype="SmallTube" Count="400"/>
-				<Component Subtype="Motor" Count="200"/>
-				<Component Subtype="Computer" Count="100"/>
-				<Component Subtype="SteelPlate" Count="200"/>
+				<Component Subtype="Lense" Count="1">
+					<DeconstructId>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Scrap</SubtypeId>
+					</DeconstructId>
+				</Component>
 			</Components>
-			<CriticalComponent Subtype="Computer" Index="0"/>
+			<CriticalComponent Subtype="Lense" Index="0"/>
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
 				<MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="1.7"/>
