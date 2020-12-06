@@ -51,43 +51,6 @@ namespace MikeDude_DrillBlocker
             client = MyAPIGateway.Session.LocalHumanPlayer;
         }
 
-        public override void UpdateAfterSimulation()
-        {
-            base.UpdateAfterSimulation();
-
-            MyAPIGateway.Parallel.Start(delegate {
-
-                try
-                {
-                    if (!logicEnabled || beacon == null || !beacon.IsWorking)
-                        return;
-
-                    if (playerInArea)
-                    {
-                        if (controller == null) return;
-                        if (controller.EnabledThrusts)
-                        {
-                            if (client.PromoteLevel == MyPromoteLevel.Owner || client.PromoteLevel == MyPromoteLevel.Admin)
-                            {
-
-                                return;
-
-                            }
-                            else
-                            {
-                                controller.SwitchThrusts();
-                            }
-
-                        }
-                    }
-                }
-                catch (Exception e)
-                {
-                    MyAPIGateway.Utilities.ShowMessage("DrillBlocker", "An error happened in the mod" + e);
-                }
-            });
-        }
-
         public override void UpdateBeforeSimulation10()
         {
             base.UpdateBeforeSimulation10();
