@@ -27,7 +27,36 @@
 			<Result Amount="1" TypeId="Component" SubtypeId="Lense"/>
 			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
 		</Blueprint>
-		<!--<Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ReactorComponent</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_ReactorComponents</DisplayName>
+			<Icon>Textures\GUI\Icons\component\reactor_components_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="15" TypeId="Ingot" SubtypeId="Iron"/>
+				<Item Amount="20" TypeId="Ingot" SubtypeId="Stone"/>
+				<Item Amount="5" TypeId="Ingot" SubtypeId="Silver"/>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="Uranium"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Reactor"/>
+			<BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+		</Blueprint>
+<!--		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>RTGCell</SubtypeId>
+			</Id>
+			<DisplayName>RTG Cell</DisplayName>
+            <Icon>Textures\GUI\Icons\component\gravity_generator_components_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="100" TypeId="Ingot" SubtypeId="Uranium"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="RTGCell"/>
+			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>UraniumOreToIngot</SubtypeId>
