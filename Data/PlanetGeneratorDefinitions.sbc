@@ -282,11 +282,11 @@
 			<Ore Value="184" Type="Gold_01" Start="107" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
 			<Ore Value="188" Type="Gold_01" Start="112" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
 			<!-- Pt 1-->
-			<Ore Value="192" Type="Platinum_01" Start="50" Depth="1" TargetColor="#FFFFFF" ColorInfluence="15"/>
-			<Ore Value="196" Type="Platinum_01" Start="51" Depth="2" TargetColor="#FFFFFF" ColorInfluence="15"/>
-			<Ore Value="208" Type="Platinum_01" Start="53" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
+			<Ore Value="192" Type="Platinum_01" Start="50" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
+			<Ore Value="196" Type="Platinum_01" Start="51" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
+			<Ore Value="208" Type="Platinum_01" Start="53" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
 			<!-- Pt 1-->
-			<Ore Value="212" Type="Platinum_01" Start="110" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
+			<Ore Value="212" Type="Platinum_01" Start="110" Depth="7" TargetColor="#FFFFFF" ColorInfluence="15"/>
 			<Ore Value="217" Type="Platinum_01" Start="114" Depth="6" TargetColor="#FFFFFF" ColorInfluence="15"/>
 			<Ore Value="222" Type="Platinum_01" Start="119" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
 		</OreMappings>
@@ -430,7 +430,7 @@
 			<Ore Value="160" Type="Ice_01" Start="89" Depth="9" TargetColor="#616c83" ColorInfluence="15"/>
 			<Ore Value="164" Type="Ice_01" Start="96" Depth="11" TargetColor="#616c83" ColorInfluence="15"/>
 			<!-- Au 1-->
-			<Ore Value="168" Type="Gold_01" Start="40" Depth="1" TargetColor="#616c83" ColorInfluence="15"/>
+			<Ore Value="168" Type="Gold_01" Start="40" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
 			<Ore Value="172" Type="Gold_01" Start="42" Depth="2" TargetColor="#616c83" ColorInfluence="15"/>
 			<Ore Value="176" Type="Gold_01" Start="45" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
 			<!-- Au 2-->
@@ -438,11 +438,11 @@
 			<Ore Value="184" Type="Gold_01" Start="107" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
 			<Ore Value="188" Type="Gold_01" Start="112" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
 			<!-- Pt 1-->
-			<Ore Value="192" Type="Uraninite_01" Start="50" Depth="1" TargetColor="#616c83" ColorInfluence="15"/>
-			<Ore Value="196" Type="Uraninite_01" Start="51" Depth="2" TargetColor="#616c83" ColorInfluence="15"/>
-			<Ore Value="208" Type="Uraninite_01" Start="53" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+			<Ore Value="192" Type="Uraninite_01" Start="50" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+			<Ore Value="196" Type="Uraninite_01" Start="51" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+			<Ore Value="208" Type="Uraninite_01" Start="53" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
 			<!-- Pt 1-->
-			<Ore Value="212" Type="Uraninite_01" Start="110" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+			<Ore Value="212" Type="Uraninite_01" Start="110" Depth="7" TargetColor="#616c83" ColorInfluence="15"/>
 			<Ore Value="217" Type="Uraninite_01" Start="114" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
 			<Ore Value="222" Type="Uraninite_01" Start="119" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
 		</OreMappings>
