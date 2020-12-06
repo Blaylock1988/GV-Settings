@@ -447,7 +447,7 @@
 			<Model>Models\Cubes\Large\UpgradeEffectiveness.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="80"/>
-				<Component Subtype="Lense" Count="1">
+				<Component Subtype="Thrust" Count="25">
 					<DeconstructId>
 						<TypeId>Ore</TypeId>
 						<SubtypeId>Scrap</SubtypeId>
@@ -513,7 +513,7 @@
 			<Model>Models\Cubes\Large\UpgradeEnergy.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="80"/>
-				<Component Subtype="Lense" Count="1">
+				<Component Subtype="Reactor" Count="25">
 					<DeconstructId>
 						<TypeId>Ore</TypeId>
 						<SubtypeId>Scrap</SubtypeId>
