@@ -9,8 +9,9 @@
       <DisplayName>DisplayName_Item_Medkit</DisplayName>
       <Icon>Textures\GUI\Icons\Items\MedKit.dds</Icon>
       <Prerequisites>
-		<Item Amount="100" TypeId="Ore" SubtypeId="Ice" />
 		<Item Amount="0.05" TypeId="Ingot" SubtypeId="Gold" />
+		<Item Amount="0.05" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.05" TypeId="Ingot" SubtypeId="Nickel" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="ConsumableItem" SubtypeId="Medkit" />
@@ -27,10 +28,9 @@
       <DisplayName>DisplayName_Item_Powerkit</DisplayName>
       <Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
       <Prerequisites>
-		<Item Amount="500" TypeId="Ingot" SubtypeId="Stone" />
-		<Item Amount="50" TypeId="Ore" SubtypeId="Ice" />
-		<Item Amount="0.05" TypeId="Ingot" SubtypeId="Magnesium" />
+		<Item Amount="0.05" TypeId="Ingot" SubtypeId="Silver" />
 		<Item Amount="0.05" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.05" TypeId="Ingot" SubtypeId="Nickel" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="ConsumableItem" SubtypeId="Powerkit" />
@@ -49,9 +49,11 @@
         <Prerequisites>
 		  <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
           <Item Amount="7" TypeId="Ingot" SubtypeId="Nickel" />
-		  <Item Amount="5" TypeId="Ingot" SubtypeId="Magnesium" />
+		  <Item Amount="5" TypeId="Ingot" SubtypeId="Cobalt" />
+		  <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+		  <Item Amount="2" TypeId="Ingot" SubtypeId="Magnesium" />
           <Item Amount="5" TypeId="Ingot" SubtypeId="Silicon" />
-          <Item Amount="5" TypeId="Ingot" SubtypeId="Platinum" />
+          <Item Amount="3" TypeId="Ingot" SubtypeId="Platinum" />
 		  <Item Amount="2" TypeId="Ingot" SubtypeId="Gold" />
 		  <Item Amount="5" TypeId="Ingot" SubtypeId="Silver" />
 		  <Item Amount="5" TypeId="Ingot" SubtypeId="ACCOIN" />
