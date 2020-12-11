@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spawnStalinRoid>false</spawnStalinRoid>
+  <stalinRoidGPS>
+    <X>0</X>
+    <Y>0</Y>
+    <Z>-40000</Z>
+  </stalinRoidGPS>
+  <enableWarpLocation>false</enableWarpLocation>
+  <warpGateGPS>
+    <X>0</X>
+    <Y>0</Y>
+    <Z>-100000</Z>
+  </warpGateGPS>
+  <DaysToReset>
+    <int>1</int>
+  </DaysToReset>
+  <RoidNames>
+    <string>Stalin</string>
+    <string>Iron</string>
+    <string>Cobalt</string>
+    <string>Nickel</string>
+    <string>Ice</string>
+    <string>Gold</string>
+    <string>Silver</string>
+    <string>Silicon</string>
+    <string>Platinum</string>
+    <string>Uranium</string>
+  </RoidNames>
+  <RoidSpawnDistance>5000</RoidSpawnDistance>
+  <MaxSpawnCoverage>10000</MaxSpawnCoverage>
+</Settings>

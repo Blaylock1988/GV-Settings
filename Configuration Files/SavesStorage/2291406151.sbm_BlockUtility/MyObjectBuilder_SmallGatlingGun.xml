@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BlockDetailsGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BlockDetails>
+    <BlockDetail>
+      <BlockDefId>MyObjectBuilder_SmallGatlingGun/(null)</BlockDefId>
+      <Public>true</Public>
+      <DisplayName>Description_GatlingGun</DisplayName>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>80</PCU>
+      <IsAirtight xsi:nil="true" />
+      <ComponentDetails>
+        <Component>
+          <ComponentSubtype>SteelPlate</ComponentSubtype>
+          <Count>1</Count>
+          <GrindToScrap>false</GrindToScrap>
+        </Component>
+        <Component>
+          <ComponentSubtype>Construction</ComponentSubtype>
+          <Count>1</Count>
+          <GrindToScrap>false</GrindToScrap>
+        </Component>
+        <Component>
+          <ComponentSubtype>MetalGrid</ComponentSubtype>
+          <Count>2</Count>
+          <GrindToScrap>false</GrindToScrap>
+        </Component>
+        <Component>
+          <ComponentSubtype>SmallTube</ComponentSubtype>
+          <Count>6</Count>
+          <GrindToScrap>false</GrindToScrap>
+        </Component>
+        <Component>
+          <ComponentSubtype>Motor</ComponentSubtype>
+          <Count>1</Count>
+          <GrindToScrap>false</GrindToScrap>
+        </Component>
+        <Component>
+          <ComponentSubtype>Computer</ComponentSubtype>
+          <Count>1</Count>
+          <GrindToScrap>false</GrindToScrap>
+        </Component>
+        <Component>
+          <ComponentSubtype>SteelPlate</ComponentSubtype>
+          <Count>10</Count>
+          <GrindToScrap>false</GrindToScrap>
+        </Component>
+        <CriticalComponent>Computer</CriticalComponent>
+      </ComponentDetails>
+      <BuildProgressModels>
+        <BuilderPercentUppderBound>0.5</BuilderPercentUppderBound>
+        <BuilderPercentUppderBound>1</BuilderPercentUppderBound>
+      </BuildProgressModels>
+    </BlockDetail>
+  </BlockDetails>
+</BlockDetailsGroup>

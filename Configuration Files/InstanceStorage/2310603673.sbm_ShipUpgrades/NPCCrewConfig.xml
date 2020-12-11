@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<NPCCrewConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <thrustOutputMulitplierControl>1.25</thrustOutputMulitplierControl>
+  <gyroOutputMulitplierControl>1.25</gyroOutputMulitplierControl>
+  <gasGeneratorOutputMulitplierControl>1.5</gasGeneratorOutputMulitplierControl>
+  <drillOutputMulitplierControl>1.5</drillOutputMulitplierControl>
+  <powerOutputMulitplierControl>1.25</powerOutputMulitplierControl>
+  <powerConsumptionDivisionControl>1.25</powerConsumptionDivisionControl>
+  <forceColor>true</forceColor>
+  <disableAIModeEnabled>false</disableAIModeEnabled>
+</NPCCrewConfig>

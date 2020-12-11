@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <settingsVersion>1.01 *Do Not Change This*</settingsVersion>
+  <UseMaxOutput>true</UseMaxOutput>
+  <ActiveMAXScanGridsMWthreshold>16</ActiveMAXScanGridsMWthreshold>
+  <PassiveMAXScanGridsMWthreshold>1</PassiveMAXScanGridsMWthreshold>
+  <ActiveCURRENTScanGridsMWthreshold>16</ActiveCURRENTScanGridsMWthreshold>
+  <PassiveCURRENTScanGridsMWthreshold>1</PassiveCURRENTScanGridsMWthreshold>
+  <DelayInSecondsActiveScan>60</DelayInSecondsActiveScan>
+  <RequireStationaryWhileActiveScanning>false</RequireStationaryWhileActiveScanning>
+  <AllEnabledRadarsVisible>true</AllEnabledRadarsVisible>
+  <CharacterDetectionRange>3000</CharacterDetectionRange>
+  <ModeSwitchAtBroadcastRange>10000</ModeSwitchAtBroadcastRange>
+  <GpsOffSetDistanceMin>2000</GpsOffSetDistanceMin>
+  <GpsOffSetDistanceMax>3000</GpsOffSetDistanceMax>
+  <EnableSmallRadar>false</EnableSmallRadar>
+  <AllowSonar>false</AllowSonar>
+  <SaveGpsOnActiveScan>true</SaveGpsOnActiveScan>
+  <OutputToLCD>true</OutputToLCD>
+  <OmitOfflineEntities>false</OmitOfflineEntities>
+  <OmitOfflineEntitiesFromSonarMode>false</OmitOfflineEntitiesFromSonarMode>
+</Settings>

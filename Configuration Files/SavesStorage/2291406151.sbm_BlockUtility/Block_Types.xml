@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BlockDefinitionsGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BlockDefinitions>
+    <TypeId_SubtypeId>MyObjectBuilder_UpgradeModule/LargeProductivityModule</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_UpgradeModule/LargeEffectivenessModule</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_UpgradeModule/LargeEnergyModule</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_GravityGenerator/</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_GravityGeneratorSphere/</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_VirtualMass/VirtualMassLarge</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_VirtualMass/VirtualMassSmall</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_SafeZoneBlock/SafeZoneBlock</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/SmallAtmosphericHoverEngine_SmallBlock</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/LargeAtmosphericHoverEngine_SmallBlock</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/SmallAtmosphericHoverEngine_LargeBlock</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/LargeAtmosphericHoverEngine_LargeBlock</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/SmallAtmosphericHoverEngine_SmallBlock_Armored_Full</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/LargeAtmosphericHoverEngine_SmallBlock_Armored_Full</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/SmallAtmosphericHoverEngine_LargeBlock_Armored_Full</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/LargeAtmosphericHoverEngine_LargeBlock_Armored_Full</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/SmallAtmosphericHoverEngine_SmallBlockV2</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/LargeAtmosphericHoverEngine_SmallBlockV2</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/SmallAtmosphericHoverEngine_LargeBlockV2</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/LargeAtmosphericHoverEngine_LargeBlockV2</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/SmallAtmosphericHoverEngine_SmallBlockV2_Armored_Half</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/LargeAtmosphericHoverEngine_SmallBlockV2_Armored_Half</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/SmallAtmosphericHoverEngine_LargeBlockV2_Armored_Half</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_Thrust/LargeAtmosphericHoverEngine_LargeBlockV2_Armored_Half</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_LargeGatlingTurret/</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_LargeGatlingTurret/SmallGatlingTurret</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_LargeMissileTurret/</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_LargeMissileTurret/SmallMissileTurret</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_InteriorTurret/LargeInteriorTurret</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_SmallMissileLauncher/</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_SmallMissileLauncher/LargeMissileLauncher</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_SmallMissileLauncherReload/SmallRocketLauncherReload</TypeId_SubtypeId>
+    <TypeId_SubtypeId>MyObjectBuilder_SmallGatlingGun/</TypeId_SubtypeId>
+  </BlockDefinitions>
+</BlockDefinitionsGroup>
