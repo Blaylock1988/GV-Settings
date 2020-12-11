@@ -386,12 +386,6 @@
 			<Model>Models\Cubes\Large\UpgradeProductivity.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="80"/>
-				<Component Subtype="Lense" Count="1">
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
 				<Component Subtype="Construction" Count="40"/>
 				<Component Subtype="SmallTube" Count="20"/>
 				<Component Subtype="Computer" Count="60"/>
@@ -447,12 +441,6 @@
 			<Model>Models\Cubes\Large\UpgradeEffectiveness.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="80"/>
-				<Component Subtype="Thrust" Count="25">
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
 				<Component Subtype="Construction" Count="50"/>
 				<Component Subtype="SmallTube" Count="15"/>
 				<Component Subtype="Superconductor" Count="20"/>
@@ -513,12 +501,6 @@
 			<Model>Models\Cubes\Large\UpgradeEnergy.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="80"/>
-				<Component Subtype="Reactor" Count="25">
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
 				<Component Subtype="Construction" Count="40"/>
 				<Component Subtype="SmallTube" Count="20"/>
 				<Component Subtype="PowerCell" Count="20"/>
