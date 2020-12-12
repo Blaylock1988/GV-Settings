@@ -9,20 +9,20 @@ namespace enenra.ArmorBalance
 	[MySessionComponentDescriptor(MyUpdateOrder.BeforeSimulation)]
     public class ArmorBalance : MySessionComponentBase
     {
-        public const float lightArmorLargeDamageMod = 0.8f;
-        public const float lightArmorLargeDeformationMod = 0.25f;
-        public const float lightArmorSmallDamageMod = 0.5f;
-        public const float lightArmorSmallDeformationMod = 0.25f;
+        public const float lightArmorLargeDamageMod = 0.8f; //1.0 Vanilla
+        public const float lightArmorLargeDeformationMod = 0.25f; //varies for every block
+        public const float lightArmorSmallDamageMod = 0.5f; //1.0 Vanilla
+        public const float lightArmorSmallDeformationMod = 0.25f; //varies for every block
 
-        public const float heavyArmorLargeDamageMod = 1f;
-        public const float heavyArmorLargeDeformationMod = 0.25f;
-        public const float heavyArmorSmallDamageMod = 0.5f;
-        public const float heavyArmorSmallDeformationMod = 0.25f;
+        public const float heavyArmorLargeDamageMod = 1f; //0.5 Vanilla ONLY for full cube, 1.0 all else
+        public const float heavyArmorLargeDeformationMod = 0.25f; //varies for every block
+        public const float heavyArmorSmallDamageMod = 0.5f; //0.5 Vanilla ONLY for full cube, 1.0 all else
+        public const float heavyArmorSmallDeformationMod = 0.25f; //varies for every block
 
-        public const float turretLargeDamageMod = 0.5f;
-        public const float weaponLargeDamageMod = 0.5f;
-        public const float turretSmallDamageMod = 0.5f;
-        public const float weaponSmallDamageMod = 0.5f;
+        public const float turretLargeDamageMod = 0.5f; //1.0 Vanilla
+        public const float weaponLargeDamageMod = 0.5f; //1.0 Vanilla
+        public const float turretSmallDamageMod = 0.5f; //1.0 Vanilla
+        public const float weaponSmallDamageMod = 0.5f; //1.0 Vanilla
 
         private bool isInit = false;
 
