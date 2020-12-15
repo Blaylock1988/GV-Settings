@@ -56,7 +56,7 @@
           <Item Amount="3" TypeId="Ingot" SubtypeId="Platinum" />
 		  <Item Amount="2" TypeId="Ingot" SubtypeId="Gold" />
 		  <Item Amount="5" TypeId="Ingot" SubtypeId="Silver" />
-		  <Item Amount="5" TypeId="Ingot" SubtypeId="ACCOIN" />
+		  <Item Amount="2" TypeId="Ingot" SubtypeId="ACCOIN" />
 		</Prerequisites>
         <Result Amount="1" TypeId="Component" SubtypeId="ZoneChip" />
         <BaseProductionTimeInSeconds>4500</BaseProductionTimeInSeconds><!--9000-->
