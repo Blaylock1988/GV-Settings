@@ -369,7 +369,6 @@
           <Rule>
             <Layers>
               <Layer Material="Soil" Depth="3"/>
-              <Layer Material="Ice_03" Depth="3"/>
             </Layers>
             <Height Min="0" Max="1"/>
             <Latitude Min="0" Max="90"/>
@@ -404,11 +403,11 @@
           </Rule>
         </MaterialGroup>
 
-        <MaterialGroup Name="GreenGrass" Value="64">
+        <MaterialGroup Name="GreenGrass" Value="150">
           <Rule>
             <Layers>
               <Layer Material="Grass" Depth="3"/>
-              <Layer Material="Ice_03" Depth="5"/>
+              <Layer Material="Soil" Depth="5"/>
             </Layers>
             <Height Min="0" Max="1"/>
             <Latitude Min="0" Max="90"/>
@@ -437,8 +436,7 @@
         <MaterialGroup Name="OasisIce" Value="38">
           <Rule>
             <Layers>
-              <Layer Material="Soil" Depth="3"/>
-              <Layer Material="Ice_03" Depth="6"/>
+              <Layer Material="Galados_VWater" Depth="6"/>
             </Layers>
             <Height Min="0" Max="1"/>
             <Latitude Min="0" Max="90"/>
@@ -448,7 +446,37 @@
           <Rule>
             <Layers>
               <Layer Material="Grass" Depth="3"/>
-              <Layer Material="Ice_03" Depth="4"/>
+              <Layer Material="Soil" Depth="4"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="3" Max="35"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DesertRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="35" Max="90"/>
+          </Rule>
+        </MaterialGroup>
+
+        <MaterialGroup Name="OasisIce2" Value="64">
+          <Rule>
+            <Layers>
+              <Layer Material="Galados_VWater" Depth="6"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="3"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="Grass" Depth="3"/>
+              <Layer Material="Soil" Depth="4"/>
             </Layers>
             <Height Min="0" Max="1"/>
             <Latitude Min="0" Max="90"/>
