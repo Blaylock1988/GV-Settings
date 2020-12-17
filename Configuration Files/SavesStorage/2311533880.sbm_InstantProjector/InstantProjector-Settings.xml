@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-16"?>
 <MapSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <BlockBuildTime>5</BlockBuildTime>
+  <BlockBuildTime>2</BlockBuildTime>
   <ComponentCostModifier>1</ComponentCostModifier>
   <MinBlocks>150</MinBlocks>
   <MaxBlocks>10000</MaxBlocks>
   <Subgrids>true</Subgrids>
   <PowerModifier>1</PowerModifier>
-  <ExtraCompCost>0.05</ExtraCompCost>
+  <ExtraCompCost>0.025</ExtraCompCost>
   <ExtraComponent Type="MyObjectBuilder_Component" Subtype="ZoneChip" />
 </MapSettings>
