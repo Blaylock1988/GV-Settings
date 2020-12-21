@@ -4,8 +4,8 @@
   <gyroOutputMulitplierControl>1.25</gyroOutputMulitplierControl>
   <gasGeneratorOutputMulitplierControl>1.5</gasGeneratorOutputMulitplierControl>
   <drillOutputMulitplierControl>1.5</drillOutputMulitplierControl>
-  <powerOutputMulitplierControl>1.25</powerOutputMulitplierControl>
-  <powerConsumptionDivisionControl>1.25</powerConsumptionDivisionControl>
-  <forceColor>true</forceColor>
+  <powerOutputMulitplierControl>1.5</powerOutputMulitplierControl>
+  <powerConsumptionDivisionControl>1.5</powerConsumptionDivisionControl>
+  <forceColor>false</forceColor>
   <disableAIModeEnabled>false</disableAIModeEnabled>
 </NPCCrewConfig>
