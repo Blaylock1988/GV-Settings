@@ -261,8 +261,8 @@
 			<Ore Value="124" Type="Platinum_01" Start="26" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
 			<Ore Value="128" Type="Platinum_01" Start="29" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
 			<!-- Mg 2-->
-			<Ore Value="132" Type="Platinum_01" Start="53" Depth="7" TargetColor="#FFFFFF" ColorInfluence="15"/>
-			<Ore Value="136" Type="Platinum_01" Start="55" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
+			<Ore Value="132" Type="Platinum_01" Start="53" Depth="9" TargetColor="#FFFFFF" ColorInfluence="15"/>
+			<Ore Value="136" Type="Platinum_01" Start="55" Depth="10" TargetColor="#FFFFFF" ColorInfluence="15"/>
 			<Ore Value="140" Type="Platinum_01" Start="59" Depth="10" TargetColor="#FFFFFF" ColorInfluence="15"/>
 			<!-- ORE Tier 3 -->
 			<!-- U 1-->
@@ -282,13 +282,13 @@
 			<Ore Value="184" Type="Gold_01" Start="107" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
 			<Ore Value="188" Type="Gold_01" Start="112" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
 			<!-- Pt 1-->
-			<Ore Value="192" Type="Platinum_01" Start="50" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
-			<Ore Value="196" Type="Platinum_01" Start="51" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
-			<Ore Value="208" Type="Platinum_01" Start="53" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
+			<Ore Value="192" Type="Platinum_01" Start="50" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
+			<Ore Value="196" Type="Platinum_01" Start="51" Depth="9" TargetColor="#FFFFFF" ColorInfluence="15"/>
+			<Ore Value="208" Type="Platinum_01" Start="53" Depth="9" TargetColor="#FFFFFF" ColorInfluence="15"/>
 			<!-- Pt 1-->
-			<Ore Value="212" Type="Platinum_01" Start="110" Depth="7" TargetColor="#FFFFFF" ColorInfluence="15"/>
-			<Ore Value="217" Type="Platinum_01" Start="114" Depth="6" TargetColor="#FFFFFF" ColorInfluence="15"/>
-			<Ore Value="222" Type="Platinum_01" Start="119" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
+			<Ore Value="212" Type="Platinum_01" Start="110" Depth="16" TargetColor="#FFFFFF" ColorInfluence="15"/>
+			<Ore Value="217" Type="Platinum_01" Start="114" Depth="17" TargetColor="#FFFFFF" ColorInfluence="15"/>
+			<Ore Value="222" Type="Platinum_01" Start="119" Depth="18" TargetColor="#FFFFFF" ColorInfluence="15"/>
 		</OreMappings>
 		<!-- END Earthmoon definitions -->
 		<SoundRules>
@@ -417,8 +417,8 @@
 			<Ore Value="124" Type="Uraninite_01" Start="26" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
 			<Ore Value="128" Type="Uraninite_01" Start="29" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
 			<!-- Mg 2-->
-			<Ore Value="132" Type="Uraninite_01" Start="53" Depth="7" TargetColor="#616c83" ColorInfluence="15"/>
-			<Ore Value="136" Type="Uraninite_01" Start="55" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
+			<Ore Value="132" Type="Uraninite_01" Start="53" Depth="9" TargetColor="#616c83" ColorInfluence="15"/>
+			<Ore Value="136" Type="Uraninite_01" Start="55" Depth="10" TargetColor="#616c83" ColorInfluence="15"/>
 			<Ore Value="140" Type="Uraninite_01" Start="59" Depth="10" TargetColor="#616c83" ColorInfluence="15"/>
 			<!-- ORE Tier 3 -->
 			<!-- U 1-->
@@ -438,13 +438,13 @@
 			<Ore Value="184" Type="Gold_01" Start="107" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
 			<Ore Value="188" Type="Gold_01" Start="112" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
 			<!-- Pt 1-->
-			<Ore Value="192" Type="Uraninite_01" Start="50" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
-			<Ore Value="196" Type="Uraninite_01" Start="51" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
-			<Ore Value="208" Type="Uraninite_01" Start="53" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+			<Ore Value="192" Type="Uraninite_01" Start="50" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
+			<Ore Value="196" Type="Uraninite_01" Start="51" Depth="9" TargetColor="#616c83" ColorInfluence="15"/>
+			<Ore Value="208" Type="Uraninite_01" Start="53" Depth="9" TargetColor="#616c83" ColorInfluence="15"/>
 			<!-- Pt 1-->
-			<Ore Value="212" Type="Uraninite_01" Start="110" Depth="7" TargetColor="#616c83" ColorInfluence="15"/>
-			<Ore Value="217" Type="Uraninite_01" Start="114" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
-			<Ore Value="222" Type="Uraninite_01" Start="119" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
+			<Ore Value="212" Type="Uraninite_01" Start="110" Depth="16" TargetColor="#616c83" ColorInfluence="15"/>
+			<Ore Value="217" Type="Uraninite_01" Start="114" Depth="17" TargetColor="#616c83" ColorInfluence="15"/>
+			<Ore Value="222" Type="Uraninite_01" Start="119" Depth="18" TargetColor="#616c83" ColorInfluence="15"/>
 		</OreMappings>
 		<SoundRules>
 			<!-- Day -->

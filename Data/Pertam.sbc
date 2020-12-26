@@ -63,20 +63,20 @@
       <Ore Value="12" Type="Iron_02" Start="25" Depth="5" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="16" Type="Iron_02" Start="28" Depth="6" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="20" Type="Iron_02" Start="31" Depth="6" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="24" Type="Nickel_01" Start="10" Depth="4" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="28" Type="Nickel_01" Start="11" Depth="4" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="24" Type="Stalinium" Start="10" Depth="4" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="28" Type="Stalinium" Start="11" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="32" Type="Nickel_01" Start="11" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="36" Type="Nickel_01" Start="24" Depth="5" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="40" Type="Nickel_01" Start="27" Depth="5" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="44" Type="Nickel_01" Start="30" Depth="5" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="48" Type="Silicon_01" Start="9" Depth="4" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="52" Type="Silicon_01" Start="13" Depth="4" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="48" Type="Stalinium" Start="9" Depth="4" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="52" Type="Stalinium" Start="13" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="56" Type="Silicon_01" Start="10" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="60" Type="Silicon_01" Start="22" Depth="5" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="64" Type="Silicon_01" Start="25" Depth="5" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="68" Type="Silicon_01" Start="27" Depth="5" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="72" Type="Cobalt_01" Start="20" Depth="4" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="76" Type="Cobalt_01" Start="22" Depth="4" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="72" Type="Stalinium" Start="20" Depth="4" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="76" Type="Stalinium" Start="22" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="80" Type="Cobalt_01" Start="26" Depth="5" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="84" Type="Cobalt_01" Start="36" Depth="5" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="88" Type="Cobalt_01" Start="44" Depth="5" TargetColor="#000000" ColorInfluence="200" />
@@ -90,21 +90,21 @@
       <Ore Value="120" Type="Iron_02" Start="23" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="124" Type="Iron_02" Start="26" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="128" Type="Stalinium" Start="29" Depth="4" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="132" Type="Stalinium" Start="53" Depth="5" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="136" Type="Stalinium" Start="55" Depth="5" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="140" Type="Stalinium" Start="59" Depth="5" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="132" Type="Stalinium" Start="53" Depth="6" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="136" Type="Stalinium" Start="55" Depth="6" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="140" Type="Stalinium" Start="59" Depth="7" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="144" Type="Gold_01" Start="32" Depth="3" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="148" Type="Gold_01" Start="35" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="152" Type="Silicon_01" Start="38" Depth="5" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="156" Type="Silicon_01" Start="80" Depth="6" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="160" Type="Stalinium" Start="89" Depth="6" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="164" Type="Stalinium" Start="96" Depth="6" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="156" Type="Silicon_01" Start="80" Depth="12" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="160" Type="Stalinium" Start="89" Depth="12" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="164" Type="Stalinium" Start="96" Depth="15" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="168" Type="Gold_01" Start="40" Depth="3" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="172" Type="Gold_01" Start="42" Depth="3" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="176" Type="Gold_01" Start="45" Depth="4" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="180" Type="Stalinium" Start="80" Depth="5" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="184" Type="Stalinium" Start="90" Depth="6" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="188" Type="Stalinium" Start="110" Depth="7" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="180" Type="Stalinium" Start="80" Depth="10" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="184" Type="Stalinium" Start="90" Depth="12" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="188" Type="Stalinium" Start="110" Depth="16" TargetColor="#000000" ColorInfluence="200" />
     </OreMappings>
 
     <SoundRules>
