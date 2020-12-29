@@ -6,18 +6,18 @@
 				<TypeId>Component</TypeId>
 				<SubtypeId>Lense</SubtypeId>
 			</Id>
-			<DisplayName>Lense</DisplayName>
+			<DisplayName>Lens</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Lense.dds</Icon>
 			<Size>
 				<X>0.5</X>
 				<Y>0.3</Y>
 				<Z>0.3</Z>
 			</Size>
-			<Mass>50</Mass>
-			<Volume>250</Volume>
+			<Mass>10</Mass>
+			<Volume>200</Volume>
 			<Model>Models\Components\Lense.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
-			<MaxIntegrity>100</MaxIntegrity>
+			<MaxIntegrity>20</MaxIntegrity>
 			<DropProbability>0.3</DropProbability>
 			<Health>14</Health>
 		</Component>
