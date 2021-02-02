@@ -22,7 +22,7 @@
 			<DisplayName>Lense</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Lense.dds</Icon>
 			<Prerequisites>
-				<Item Amount="30" TypeId="Ingot" SubtypeId="ACCOIN"/>
+				<Item Amount="6" TypeId="Ingot" SubtypeId="ACCOIN"/>
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Iron"/>
 				<Item Amount="1" TypeId="Ingot" SubtypeId="Cobalt"/>
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Nickel"/>
@@ -221,7 +221,7 @@
 				<Item Amount="2" TypeId="Ingot" SubtypeId="ACCOIN"/>
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="ZoneChip"/>
-			<BaseProductionTimeInSeconds>4500</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>1125</BaseProductionTimeInSeconds>
 			<!--9000-->
 			<!-- this is 5 hours on 1x game assembler speed setting with no Speed Upgrade Modules -->
 			<!-- with 4 Speed Upgrade Modules, that brings it to 3600 seconds which is 60 minutes -->
