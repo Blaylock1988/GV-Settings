@@ -74,7 +74,7 @@ namespace MikeDude_DrillBlocker
                         if (character.EquippedTool is IMyHandDrill && drill != null)
                         {
                             var controlEnt = character as Sandbox.Game.Entities.IMyControllableEntity;
-                            controlEnt?.SwitchToWeapon(null);
+                            controlEnt?.UnequipWeapon();
                         }
                     }
 
