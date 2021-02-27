@@ -18,7 +18,7 @@ using Sandbox.Game;
 using VRage.Utils;
 using Sandbox.ModAPI.Weapons;
 
-namespace MikeDude_DrillBlocker
+namespace DrillBlocker_NoDrill
 {
     [MyEntityComponentDescriptor(typeof(Sandbox.Common.ObjectBuilders.MyObjectBuilder_Beacon), false, new string[] { "DrillBlocker" })]
     public class DrillBlocker_Beacon : MyGameLogicComponent
@@ -26,7 +26,7 @@ namespace MikeDude_DrillBlocker
         private MyObjectBuilder_EntityBase _objectBuilder;
         private IMyBeacon beacon;
         private IMyPlayer client;
-        private bool playerInArea;
+        private bool playerInZone;
         private IMyCharacter character;
         private VRage.Game.ModAPI.Interfaces.IMyControllableEntity controller;
 
@@ -39,7 +39,7 @@ namespace MikeDude_DrillBlocker
             base.Init(objectBuilder);
 
             beacon = (Entity as IMyBeacon);
-            DrillBlocker_Drill.beaconList.Add(beacon);
+            //DrillBlocker_Drill.beaconList.Add(beacon);
 
             if (beacon != null)
             {
@@ -49,6 +49,12 @@ namespace MikeDude_DrillBlocker
             }
 
             client = MyAPIGateway.Session.LocalHumanPlayer;
+        }
+
+        public override void UpdateAfterSimulation()
+        {
+            base.UpdateAfterSimulation();
+
         }
 
         public override void UpdateBeforeSimulation10()
@@ -66,7 +72,7 @@ namespace MikeDude_DrillBlocker
 
                     if (Vector3D.Distance(client.GetPosition(), beacon.GetPosition()) < beacon.Radius)
                     {
-                        playerInArea = true;
+                        playerInZone = true;
                         character = client.Character;
                         controller = character as VRage.Game.ModAPI.Interfaces.IMyControllableEntity;
                         var drill = MyAPIGateway.Session?.Player?.Character?.EquippedTool as IMyHandDrill;
@@ -74,13 +80,13 @@ namespace MikeDude_DrillBlocker
                         if (character.EquippedTool is IMyHandDrill && drill != null)
                         {
                             var controlEnt = character as Sandbox.Game.Entities.IMyControllableEntity;
-                            controlEnt?.UnequipWeapon();
+                            controlEnt?.SwitchToWeapon(null);
                         }
                     }
 
                     else
                     {
-                        playerInArea = false;
+                        playerInZone = false;
                     }
                 }
                 catch (Exception e)
@@ -117,11 +123,10 @@ namespace MikeDude_DrillBlocker
             {
                 return;
             }
-
-            if (DrillBlocker_Drill.beaconList.Contains(beacon))
+            /*if (DrillBlocker_Drill.beaconList.Contains(beacon))
             {
                 DrillBlocker_Drill.beaconList.Remove(beacon);
-            }
+            }*/
         }
 
         public override void OnRemovedFromScene()
@@ -141,3 +146,4 @@ namespace MikeDude_DrillBlocker
         }
     }
 }
+

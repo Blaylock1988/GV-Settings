@@ -16,9 +16,8 @@ using VRage.Game.Definitions.SessionComponents;
 using VRage.Utils;
 using VRageMath;
 using VRageRender.Messages;
-using NoMinPrice;
 
-namespace NoMinPrice
+namespace GV_Settings
 {
     [MySessionComponentDescriptor(MyUpdateOrder.NoUpdate)]
     class NoMinPrice : MySessionComponentBase
@@ -28,9 +27,8 @@ namespace NoMinPrice
             base.LoadData();
             var allDefs = MyDefinitionManager.Static.GetAllDefinitions();
 
-            foreach (var component in allDefs.OfType<MyPhysicalItemDefinition>())
-            {
-                component.MinimalPricePerUnit = 1;
+            foreach(var component in allDefs.OfType<MyPhysicalItemDefinition>()){
+                component.MinimalPricePerUnit = 0;
             }
         }
     }

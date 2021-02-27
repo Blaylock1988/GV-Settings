@@ -4,7 +4,7 @@ using VRage.Game;
 using VRage.Game.Components;
 
 // Code is based on Gauge's Balanced Deformation code, but heavily modified for more control. 
-namespace enenra.ArmorBalance
+namespace MikeDude.ArmorBalance
 {
 	[MySessionComponentDescriptor(MyUpdateOrder.BeforeSimulation)]
     public class ArmorBalance : MySessionComponentBase

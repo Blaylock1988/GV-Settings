@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using VRage.ModAPI;
 using VRage.Game;
 using VRage.Game.Components;
@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using Sandbox.Game.Entities;
 using Sandbox.Game.Weapons;
 
-namespace MikeDude_DrillBlocker
+namespace DrillBlocker_NoDrill
 {
     [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Drill), false)]
     public class DrillBlocker_Drill : MyGameLogicComponent
@@ -21,7 +21,7 @@ namespace MikeDude_DrillBlocker
         private IMyShipDrill shipDrill;
         private IMyPlayer client;
         private bool isServer;
-        private bool inArea;
+        private bool inZone;
         public static List<IMyBeacon> beaconList = new List<IMyBeacon>();
 
         public override void Init(MyObjectBuilder_EntityBase objectBuilder)
@@ -65,15 +65,16 @@ namespace MikeDude_DrillBlocker
                         if (beacon == null) continue;
                         if (!beacon.Enabled) continue;
 
-                        if (shipDrill != null && Vector3D.Distance(shipDrill.GetPosition(), beacon.GetPosition()) < beacon.Radius)
+                        if (Vector3D.Distance(shipDrill.GetPosition(), beacon.GetPosition()) < beacon.Radius)
                         {
-                            inArea = true;
+                            inZone = true;
                             shipDrill.Enabled = false;
+                            ApplyDamageDrill();
                             return;
                         }
                     }
 
-                    inArea = false;
+                    inZone = false;
                 }
             }
             catch (Exception exc)
@@ -84,7 +85,7 @@ namespace MikeDude_DrillBlocker
 
         private void shipDrillWorkingStateChange(IMyCubeBlock block)
         {
-            if (shipDrill != null && !shipDrill.Enabled)
+            if (!shipDrill.Enabled)
             {
                 foreach (var beacon in beaconList)
                 {
@@ -93,10 +94,29 @@ namespace MikeDude_DrillBlocker
                     if (Vector3D.Distance(shipDrill.GetPosition(), beacon.GetPosition()) < beacon.Radius)
                     {
                         shipDrill.Enabled = false;
+                        ApplyDamageDrill();
                     }
 
                 }
 
+            }
+
+        }
+
+        private void ApplyDamageDrill()
+        {
+            try
+            {
+                IMySlimBlock b = shipDrill.SlimBlock;
+                IMyEntity entity = shipDrill.Parent;
+                IMyCubeGrid grid = entity as IMyCubeGrid;
+                var damage = grid.GridSizeEnum.Equals(MyCubeSize.Large) ? 1.0f : 0.5f;
+                b.DecreaseMountLevel(damage, null, true);
+                b.ApplyAccumulatedDamage();
+            }
+            catch (Exception exc)
+            {
+                MyLog.Default.WriteLineAndConsole($"Failed to apply damage: {exc}");
             }
 
         }
@@ -139,3 +159,4 @@ namespace MikeDude_DrillBlocker
         }
     }
 }
+*/
