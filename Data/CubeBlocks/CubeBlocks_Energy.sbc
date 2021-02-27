@@ -128,7 +128,7 @@
 				<SubtypeId>LargeBlockSolarPanel_Stalinium</SubtypeId>
 			</Id>
 			<DisplayName>Stalinium SolarPanel</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+			<Icon>Textures\GUI\Icons\StaliniumSolarPanel.dds</Icon>
 			<Description>Stalinium SolarPanel</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>

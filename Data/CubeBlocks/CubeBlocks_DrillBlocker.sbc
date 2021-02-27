@@ -7,7 +7,7 @@
 				<SubtypeId>DrillBlocker</SubtypeId>
 			</Id>
 			<DisplayName>Drill Blocker</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
+			<Icon>Textures\GUI\Icons\DrillBlocker.dds</Icon>
 			<Description>Prevents all drill operations within the set range.</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
