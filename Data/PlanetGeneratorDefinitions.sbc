@@ -175,40 +175,7 @@
 				</Rule>
 			</MaterialGroup>
 		</ComplexMaterials>
-		<EnvironmentItems>
-			<Item>
-				<Biomes>
-					<Biome>0</Biome>
-				</Biomes>
-				<Materials>
-					<Material>MoonSoil</Material>
-				</Materials>
-				<Items>
-					<Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Moon" Density="0.003"/>
-				</Items>
-				<Rule>
-					<Height Min="0" Max="0.7"/>
-					<Latitude Min="0" Max="80"/>
-					<Slope Min="0" Max="15"/>
-				</Rule>
-			</Item>
-			<Item>
-				<Biomes>
-					<Biome>0</Biome>
-				</Biomes>
-				<Materials>
-					<Material>MoonRocks</Material>
-				</Materials>
-				<Items>
-					<Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Moon" Density="0.003"/>
-				</Items>
-				<Rule>
-					<Height Min="0" Max="0.7"/>
-					<Latitude Min="0" Max="80"/>
-					<Slope Min="0" Max="15"/>
-				</Rule>
-			</Item>
-		</EnvironmentItems>
+		<EnvironmentItems />
 		<OreMappings>
 			<!-- Tier 1 ! INSERT ONLY IN BLUE CHANNEL ! -->
 			<!-- EASY START-->
@@ -534,40 +501,7 @@
 			</MaterialGroup>
 		</ComplexMaterials>
 		<!-- END Eumoon definitions - name shortened for better navigation -->
-		<EnvironmentItems>
-			<Item>
-				<Biomes>
-					<Biome>0</Biome>
-				</Biomes>
-				<Materials>
-					<Material>Ice</Material>
-				</Materials>
-				<Items>
-					<Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="Europa" Density="0.003"/>
-				</Items>
-				<Rule>
-					<Height Min="0" Max="0.7"/>
-					<Latitude Min="0" Max="80"/>
-					<Slope Min="0" Max="15"/>
-				</Rule>
-			</Item>
-			<Item>
-				<Biomes>
-					<Biome>0</Biome>
-				</Biomes>
-				<Materials>
-					<Material>Ice_02</Material>
-				</Materials>
-				<Items>
-					<Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="Europa" Density="0.003"/>
-				</Items>
-				<Rule>
-					<Height Min="0" Max="0.7"/>
-					<Latitude Min="0" Max="80"/>
-					<Slope Min="0" Max="15"/>
-				</Rule>
-			</Item>
-		</EnvironmentItems>
+		<EnvironmentItems />
 		<DefaultSurfaceMaterial Material="Ice" MaxDepth="5"/>
 		<DefaultSubSurfaceMaterial Material="Ice_03"/>
 		<HasAtmosphere>true</HasAtmosphere>
