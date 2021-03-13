@@ -72,14 +72,14 @@
 				<TypeId>WeaponDefinition</TypeId>
 				<SubtypeId>LargeGatlingTurret</SubtypeId>
 			</Id>
-			<ProjectileAmmoData RateOfFire="500" ShootSoundName="WepGatlingTurretShot" ShotsInBurst="140"/>
+			<ProjectileAmmoData RateOfFire="1000" ShootSoundName="WepGatlingTurretShot" ShotsInBurst="35"/>
 			<ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-			<DeviateShotAngle>0.4</DeviateShotAngle>
+			<DeviateShotAngle>0.5</DeviateShotAngle>
 			<MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
 			<AmmoMagazines>
 				<AmmoMagazine Subtype="NATO_25x184mm"/>
 			</AmmoMagazines>
-			<ReloadTime>6000</ReloadTime>
+			<ReloadTime>3500</ReloadTime>
 		</Weapon>
 		<Weapon>
 			<Id>

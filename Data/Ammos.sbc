@@ -14,9 +14,9 @@
 				<PhysicalMaterial>RifleBullet</PhysicalMaterial>
 			</BasicProperties>
 			<ProjectileProperties>
-				<ProjectileTrailScale>0.25</ProjectileTrailScale>
-				<ProjectileTrailProbability>1</ProjectileTrailProbability>
-				<ProjectileTrailColor x="0.35" y="1" z="0.15"/>
+				<ProjectileTrailScale>0.4</ProjectileTrailScale>
+				<ProjectileTrailProbability>0.75</ProjectileTrailProbability>
+				<ProjectileTrailColor x="1.5" y="2" z="1"/>
 				<ProjectileHitImpulse>1</ProjectileHitImpulse>
 				<ProjectileMassDamage>33</ProjectileMassDamage>
 				<ProjectileHealthDamage>24</ProjectileHealthDamage>
@@ -37,9 +37,9 @@
 				<PhysicalMaterial>GunBullet</PhysicalMaterial>
 			</BasicProperties>
 			<ProjectileProperties>
-				<ProjectileTrailScale>0.5</ProjectileTrailScale>
-				<ProjectileTrailProbability>1</ProjectileTrailProbability>
-				<ProjectileTrailColor x="1" y="0.35" z="0.15"/>
+				<ProjectileTrailScale>0.75</ProjectileTrailScale>
+				<ProjectileTrailProbability>0.75</ProjectileTrailProbability>
+				<ProjectileTrailColor x="2" y="0.75" z="0.5"/>
 				<ProjectileHitImpulse>2</ProjectileHitImpulse>
 				<ProjectileMassDamage>165</ProjectileMassDamage>
 				<ProjectileHealthDamage>33</ProjectileHealthDamage>
