@@ -17,5 +17,7 @@
 		<Entry Class="Ingots" BlueprintSubtypeId="StaliniumOreToIngot"/>
 		<Entry Class="Components" BlueprintSubtypeId="Lense"/>
 		<Entry Class="Components" BlueprintSubtypeId="ZoneChip"/>
+		<Entry Class="EliteTools" BlueprintSubtypeId="MedkitCraft"/>
+		<Entry Class="EliteTools" BlueprintSubtypeId="PowerkitCraft"/>
 	</BlueprintClassEntries>
 </Definitions>
