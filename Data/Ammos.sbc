@@ -18,7 +18,7 @@
 				<ProjectileTrailProbability>0.75</ProjectileTrailProbability>
 				<ProjectileTrailColor x="1.5" y="2" z="1"/>
 				<ProjectileHitImpulse>1</ProjectileHitImpulse>
-				<ProjectileMassDamage>33</ProjectileMassDamage>
+				<ProjectileMassDamage>36</ProjectileMassDamage>
 				<ProjectileHealthDamage>24</ProjectileHealthDamage>
 				<HeadShot>true</HeadShot>
 				<ProjectileHeadShotDamage>60</ProjectileHeadShotDamage>
@@ -66,7 +66,7 @@
 				<MissileAcceleration>600</MissileAcceleration>
 				<MissileInitialSpeed>100</MissileInitialSpeed>
 				<MissileSkipAcceleration>false</MissileSkipAcceleration>
-				<MissileExplosionDamage>500</MissileExplosionDamage>
+				<MissileExplosionDamage>600</MissileExplosionDamage>
 			</MissileProperties>
 		</Ammo>
 	</Ammos>

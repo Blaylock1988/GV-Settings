@@ -6,7 +6,7 @@
 				<TypeId>WeaponDefinition</TypeId>
 				<SubtypeId>SmallMissileLauncher</SubtypeId>
 			</Id>
-			<MissileAmmoData RateOfFire="60" ShootSoundName="WepShipSmallMissileShot" ShotsInBurst="0"/>
+			<MissileAmmoData RateOfFire="50" ShootSoundName="WepShipSmallMissileShot" ShotsInBurst="0"/>
 			<DeviateShotAngle>0.1</DeviateShotAngle>
 			<NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
 			<AmmoMagazines>
@@ -19,7 +19,7 @@
 				<TypeId>WeaponDefinition</TypeId>
 				<SubtypeId>LargeMissileLauncher</SubtypeId>
 			</Id>
-			<MissileAmmoData RateOfFire="120" ShootSoundName="WepShipSmallMissileShot" ShotsInBurst="19"/>
+			<MissileAmmoData RateOfFire="120" ShootSoundName="WepShipSmallMissileShot" ShotsInBurst="10"/>
 			<DeviateShotAngle>0.1</DeviateShotAngle>
 			<NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
 			<AmmoMagazines>
@@ -32,12 +32,12 @@
 				<TypeId>WeaponDefinition</TypeId>
 				<SubtypeId>LargeMissileTurret</SubtypeId>
 			</Id>
-			<MissileAmmoData RateOfFire="240" ShootSoundName="WepTurretMissileShot" ShotsInBurst="6"/>
+			<MissileAmmoData RateOfFire="240" ShootSoundName="WepTurretMissileShot" ShotsInBurst="3"/>
 			<DeviateShotAngle>0.5</DeviateShotAngle>
 			<AmmoMagazines>
 				<AmmoMagazine Subtype="Missile200mm"/>
 			</AmmoMagazines>
-			<ReloadTime>5500</ReloadTime>
+			<ReloadTime>4000</ReloadTime>
 		</Weapon>
 		<Weapon>
 			<Id>
@@ -49,14 +49,14 @@
 			<AmmoMagazines>
 				<AmmoMagazine Subtype="Missile200mm"/>
 			</AmmoMagazines>
-			<ReloadTime>3000</ReloadTime>
+			<ReloadTime>4000</ReloadTime>
 		</Weapon>
 		<Weapon>
 			<Id>
 				<TypeId>WeaponDefinition</TypeId>
 				<SubtypeId>GatlingGun</SubtypeId>
 			</Id>
-			<ProjectileAmmoData RateOfFire="500" ShootSoundName="WepShipGatlingShot" ShotsInBurst="140"/>
+			<ProjectileAmmoData RateOfFire="400" ShootSoundName="WepShipGatlingShot" ShotsInBurst="140"/>
 			<ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
 			<DeviateShotAngle>0.4</DeviateShotAngle>
 			<MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
@@ -86,14 +86,14 @@
 				<TypeId>WeaponDefinition</TypeId>
 				<SubtypeId>SmallGatlingTurret</SubtypeId>
 			</Id>
-			<ProjectileAmmoData RateOfFire="500" ShootSoundName="WepGatlingTurretShot" ShotsInBurst="100"/>
+			<ProjectileAmmoData RateOfFire="1000" ShootSoundName="WepGatlingTurretShot" ShotsInBurst="28"/>
 			<ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
 			<DeviateShotAngle>0.4</DeviateShotAngle>
 			<MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
 			<AmmoMagazines>
 				<AmmoMagazine Subtype="NATO_25x184mm"/>
 			</AmmoMagazines>
-			<ReloadTime>3000</ReloadTime>
+			<ReloadTime>3500</ReloadTime>
 		</Weapon>
 		<Weapon>
 			<Id>
