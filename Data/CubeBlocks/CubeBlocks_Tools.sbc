@@ -1,6 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>SmallBlockDrill</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_Drill</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+			<Description>Description_Drill</Description>
+			<CubeSize>Small</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="6"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\Small\driller.mwm</Model>
+			<PlaceDecals>false</PlaceDecals>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="20"/>
+				<Component Subtype="Construction" Count="30"/>
+				<Component Subtype="LargeTube" Count="4"/>
+				<Component Subtype="Motor" Count="1"/>
+				<Component Subtype="Computer" Count="1"/>
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<Center x="1" y="1" z="5"/>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true"/>
+				<MountPoint Side="Right" StartX="0" StartY="1" EndX="2" EndY="2"/>
+				<MountPoint Side="Left" StartX="4" StartY="1" EndX="6" EndY="2"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\DrillerConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm"/>
+			</BuildProgressModels>
+			<VoxelPlacement>
+				<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0.01</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<BlockPairName>Drill</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
+			<SensorRadius>1.5</SensorRadius>
+			<SensorOffset>0.8</SensorOffset>
+			<CutOutRadius>1.5</CutOutRadius>
+			<CutOutOffset>0.6</CutOutOffset>
+			<ParticleOffset>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>-1.45</Z>
+			</ParticleOffset>
+			<DeformationRatio>0.2</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>ToolShipDrillIdle</PrimarySound>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>190</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>LargeBlockDrill</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_Drill</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+			<Description>Description_Drill</Description>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\Large\drill.mwm</Model>
+			<PlaceDecals>false</PlaceDecals>
+			<UseModelIntersection>true</UseModelIntersection>
+			<UsesDeformation>false</UsesDeformation>
+			<Components>
+				<Component Subtype="SteelPlate" Count="180"/>
+				<Component Subtype="Construction" Count="40"/>
+				<Component Subtype="LargeTube" Count="12"/>
+				<Component Subtype="Motor" Count="5"/>
+				<Component Subtype="Computer" Count="5"/>
+				<Component Subtype="SteelPlate" Count="120"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Bottom" StartX="0" StartY="2" EndX="1" EndY="3"/>
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Left" StartX="2" StartY="0" EndX="3" EndY="1"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DrillConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DrillConstruction_2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm"/>
+			</BuildProgressModels>
+			<VoxelPlacement>
+				<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0.01</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<BlockPairName>Drill</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<Center x="0" y="0" z="2"/>
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
+			<SensorRadius>2.1</SensorRadius>
+			<SensorOffset>2.8</SensorOffset>
+			<CutOutRadius>2.1</CutOutRadius>
+			<CutOutOffset>2.8</CutOutOffset>
+			<ParticleOffset>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>-3.6</Z>
+			</ParticleOffset>
+			<DeformationRatio>0.2</DeformationRatio>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>ToolShipDrillIdle</PrimarySound>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>190</PCU>
+		</Definition>
 		<Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
 			<Id>
 				<TypeId>OreDetector</TypeId>
