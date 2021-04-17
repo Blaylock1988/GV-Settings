@@ -16,12 +16,7 @@
 			<Model>Models\Cubes\Large\PistonBase.mwm</Model>
 			<PlaceDecals>false</PlaceDecals>
 			<Components>
-				<Component Subtype="Lense" Count="1">
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
+				<Component Subtype="Lense" Count="1"/>
 			</Components>
 			<CriticalComponent Subtype="Lense" Index="0"/>
 			<MountPoints>
@@ -75,12 +70,7 @@
 			<Model>Models\Cubes\Large\PistonBase.mwm</Model>
 			<PlaceDecals>false</PlaceDecals>
 			<Components>
-				<Component Subtype="Lense" Count="1">
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
+				<Component Subtype="Lense" Count="1"/>
 			</Components>
 			<CriticalComponent Subtype="Lense" Index="0"/>
 			<MountPoints>
@@ -134,12 +124,7 @@
 			<Model>Models\Cubes\Small\PistonBase.mwm</Model>
 			<PlaceDecals>false</PlaceDecals>
 			<Components>
-				<Component Subtype="Lense" Count="1">
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
+				<Component Subtype="Lense" Count="1"/>
 			</Components>
 			<CriticalComponent Subtype="Lense" Index="0"/>
 			<MountPoints>
@@ -193,12 +178,7 @@
 			<Model>Models\Cubes\Small\PistonBase.mwm</Model>
 			<PlaceDecals>false</PlaceDecals>
 			<Components>
-				<Component Subtype="Lense" Count="1">
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
+				<Component Subtype="Lense" Count="1"/>
 			</Components>
 			<CriticalComponent Subtype="Lense" Index="0"/>
 			<MountPoints>

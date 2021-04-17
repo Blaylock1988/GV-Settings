@@ -16,12 +16,7 @@
 			<Model>Models\Cubes\Large\SafeZoneBlock.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="750"/>
-				<Component Subtype="Lense" Count="25">
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
+				<Component Subtype="Lense" Count="25"/>
 				<Component Subtype="Construction" Count="180"/>
 				<Component Subtype="GravityGenerator" Count="10"/>
 				<Component Subtype="ZoneChip" Count="5"/>
