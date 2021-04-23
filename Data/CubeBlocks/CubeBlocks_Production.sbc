@@ -435,6 +435,7 @@
 			<Icon>Textures\GUI\Icons\Cubes\UpgradeEffectiveness.dds</Icon>
 			<Description>Description_EffectivenessModule</Description>
 			<CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -495,6 +496,7 @@
 			<Icon>Textures\GUI\Icons\Cubes\UpgradeEnergy.dds</Icon>
 			<Description>Description_PowerEfficiencyModule</Description>
 			<CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
