@@ -102,9 +102,16 @@
 			</Id>
 			<ProjectileAmmoData RateOfFire="500" ShootSoundName="WepTurretInteriorFire"/>
 			<DeviateShotAngle>0.3</DeviateShotAngle>
+            <DamageMultiplier>0.25</DamageMultiplier>
+            <RangeMultiplier>1</RangeMultiplier>
 			<MuzzleFlashLifeSpan>30</MuzzleFlashLifeSpan>
-			<AmmoMagazines>
-				<AmmoMagazine Subtype="NATO_5p56x45mm"/>
+            <AmmoMagazines>
+                <!--<AmmoMagazine Subtype="InteriorTurret_Mag_100rd" />-->
+                <!--<AmmoMagazine Subtype="AutomaticRifleGun_Mag_20rd" />-->
+                <!--<AmmoMagazine Subtype="PreciseAutomaticRifleGun_Mag_5rd" />-->
+                <AmmoMagazine Subtype="RapidFireAutomaticRifleGun_Mag_50rd" />
+                <!--<AmmoMagazine Subtype="UltimateAutomaticRifleGun_Mag_30rd" />-->
+                <AmmoMagazine Subtype="NATO_5p56x45mm" />
 			</AmmoMagazines>
 		</Weapon>
 	</Weapons>
