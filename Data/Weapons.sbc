@@ -20,7 +20,7 @@
 				<SubtypeId>LargeMissileLauncher</SubtypeId>
 			</Id>
 			<MissileAmmoData RateOfFire="120" ShootSoundName="WepShipSmallMissileShot" ShotsInBurst="10"/>
-			<DeviateShotAngle>0.1</DeviateShotAngle>
+			<DeviateShotAngle>0.2</DeviateShotAngle>
 			<NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
 			<AmmoMagazines>
 				<AmmoMagazine Subtype="Missile200mm"/>
@@ -45,7 +45,7 @@
 				<SubtypeId>SmallMissileTurret</SubtypeId>
 			</Id>
 			<MissileAmmoData RateOfFire="120" ShootSoundName="WepTurretMissileShot" ShotsInBurst="2"/>
-			<DeviateShotAngle>0.5</DeviateShotAngle>
+			<DeviateShotAngle>0.4</DeviateShotAngle>
 			<AmmoMagazines>
 				<AmmoMagazine Subtype="Missile200mm"/>
 			</AmmoMagazines>
@@ -101,7 +101,7 @@
 				<SubtypeId>LargeInteriorTurret</SubtypeId>
 			</Id>
 			<ProjectileAmmoData RateOfFire="500" ShootSoundName="WepTurretInteriorFire"/>
-			<DeviateShotAngle>0.3</DeviateShotAngle>
+			<DeviateShotAngle>0.2</DeviateShotAngle>
             <DamageMultiplier>0.25</DamageMultiplier>
             <RangeMultiplier>1</RangeMultiplier>
 			<MuzzleFlashLifeSpan>30</MuzzleFlashLifeSpan>
