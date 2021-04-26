@@ -8,7 +8,7 @@
 			</Id>
 			<BasicProperties>
 				<DesiredSpeed>500</DesiredSpeed>
-				<SpeedVariance>5</SpeedVariance>
+				<SpeedVariance>0</SpeedVariance>
 				<MaxTrajectory>800</MaxTrajectory>
 				<BackkickForce>1.5</BackkickForce>
 				<PhysicalMaterial>RifleBullet</PhysicalMaterial>
@@ -31,7 +31,7 @@
 			</Id>
 			<BasicProperties>
 				<DesiredSpeed>300</DesiredSpeed>
-				<SpeedVariance>5</SpeedVariance>
+				<SpeedVariance>0</SpeedVariance>
 				<MaxTrajectory>250</MaxTrajectory>
 				<BackkickForce>0.5</BackkickForce>
 				<PhysicalMaterial>RifleBullet</PhysicalMaterial>
@@ -52,7 +52,7 @@
 			</Id>
 			<BasicProperties>
 				<DesiredSpeed>400</DesiredSpeed>
-				<SpeedVariance>10</SpeedVariance>
+				<SpeedVariance>0</SpeedVariance>
 				<MaxTrajectory>800</MaxTrajectory>
 				<BackkickForce>50</BackkickForce>
 				<PhysicalMaterial>GunBullet</PhysicalMaterial>
@@ -74,7 +74,7 @@
 			</Id>
 			<BasicProperties>
 				<DesiredSpeed>300</DesiredSpeed>
-				<SpeedVariance>5</SpeedVariance>
+				<SpeedVariance>0</SpeedVariance>
 				<MaxTrajectory>800</MaxTrajectory>
 				<IsExplosive>true</IsExplosive>
 				<BackkickForce>0</BackkickForce>
